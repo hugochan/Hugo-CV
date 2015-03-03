@@ -1,0 +1,252 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,letterpaper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+\usepackage{xcolor}
+\moderncvstyle{banking} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.78]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+% added
+%\usepackage{fancyhdr,url,xspace,hyperref}
+\renewcommand{\footrulewidth}{0pt}
+\pagestyle{fancy}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{\textsc{Yu}} % Your first name
+\familyname{\textsc{Chen}} % Your last name
+% All information in this block is optional, comment out any lines you don't need
+\title{Resume}
+\address{No.2006, Xiyuan Ave, West Hi-Tech Zone}{Chengdu, Sichuan 611731, P.R. China}
+\mobile{86-18200259160}
+%\phone{(000) 111 1112}
+%\fax{(000) 111 1113}
+\email{yuchn@umich.edu}
+%\homepage{www.sites.google.com/site/whatshugo}{Website: sites.google.com/site/whatshugo} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+\homepage{www.linkedin.com/in/whatshugo}{LinkedIn: linkedin.com/in/whatshugo}
+%\homepage{www.github.com/hugochan}{GitHub:github.com/hugochan}
+
+%\extrainfo{additional information}
+%\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{\textsc{Sep. 2014} - \textsc{Dec. 2014}}{Exchange student in Computer \& Information Science}{The University of Michigan-Dearborn}{Dearborn, USA}{}{}  % Arguments not required can be left empty
+%------------------------------------------------
+\cventry{\textsc{Sep. 2011} - \textsc{Jul. 2015 (expected)}}{B.Eng. in Communication Engineering}{The University of Electronic Science and Technology of China}{Chengdu, P.R. China}{}{\textit{GPA: 3.98/4.0, Rank: 5/463}}
+
+%\section{Masters Thesis}
+
+%\cvitem{Title}{\emph{Money Is The Root Of All Evil -- Or Is It?}}
+%\cvitem{Supervisors}{Professor James Smith \& Associate Professor Jane Smith}
+%\cvitem{Description}{This thesis explored the idea that money has been the cause of untold anguish and suffering in the world. I %found that it has, in fact, not.}
+
+
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Honors \& Awards}
+
+\cventry{\textsc{2012 - 2013 \& 2013 - 2014}}{The University of Electronic Science and Technology of China}{The First-Class People's Scholarship}{}{}{}  % Arguments not required can be left empty
+%------------------------------------------------
+\cventry{\textsc{Nov. 2012}}{The University of Electronic Science and Technology of China}{Outstanding Individual Award in Summer Practice}{}{}{}
+%------------------------------------------------
+\cventry{\textsc{Oct. 2012}}{China Association for Science and Technology \& ASUSTeK Computer Inc.}{Third Prize Outstanding Volunteer in Popular Science}{}{}{}  % Arguments not required can be left empty
+%------------------------------------------------
+\cventry{\textsc{2011 - 2012}}{Ministry of Education of China}{National Scholarship}{}{Top 1.6 \%}{}
+
+
+
+%----------------------------------------------------------------------------------------
+%	RESEARCH EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Research Experience}
+
+\cventry{\textsc{Sep. 2014} - \textsc{Dec. 2014}}{Advisor: Prof. \href{http://umdearborn.edu/cecs/CIS/faculty/extended.php?p_id=50}{\textcolor{blue}{Jie Shen}}}{\textsc{Research Assistant in the Virtual Engineering Laboratory, UM-Dearborn}}{Dearborn, USA}{}{
+Data mining of large-scale discrete data sets with a focus on 3D surface denoising.
+%\newline{}
+\begin{itemize}
+\item Investigated the basic data mining and artificial intelligent algorithms.
+\item Applied the above algorithms on large-scale data sets.
+\item Collected and compared existing approaches of 3D surface denoising.
+\item Designed and implemented novel and effective approaches to denoise 3D surface of objects.
+\end{itemize}}
+
+%------------------------------------------------
+
+\cventry{\textsc{May 2014} - \textsc{Jul. 2014}}{Advisor: Prof. \href{http://scholar.google.com/citations?user=MXgWgmEAAAAJ}{\textcolor{blue}{Tao Zhou}}}{Research Assistant in the Web Sciences Center, UESTC}{Chengdu, P.R. China}{}{Empirical analysis and recommendation algorithms design in social network area.
+%\newline{}
+\begin{itemize}
+\item Analyzed a mass of data in social networks.
+\item Found interesting patterns of human behaviors with temporal dynamics in social networks.
+\item Designed and implemented novel and effective recommendation algorithms.
+\end{itemize}}
+
+%------------------------------------------------
+
+\cventry{\textsc{Apr. 2013} - \textsc{Aug. 2013}}{}{PHP Developer in the Star Studio, UESTC}{Chengdu, P.R. China}{}{
+\begin{itemize}
+\item Updated campus forum system for student organization focusing on web development.
+\item Maintained existing web systems.
+\end{itemize}}
+
+
+%----------------------------------------------------------------------------------------
+%	GRANTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Grants}
+
+\cventry{\textsc{Apr. 2013} - \textsc{Dec. 2013}}{The University of Electronic Science and Technology of China}{Core Developer in the Yellow Ginkgo Innovation Fund}{Chengdu, P.R. China}{}{A GSM-based remote water quality monitoring system providing simple interactions between monitors and monitoring center. 
+%\newline{}
+\begin{itemize}
+\item One of the three core developers in this fund.
+\item Took charge of the embedded development.
+\item Designed and implemented the embedded part of the system.
+\item Designed and implemented communication protocols between monitors and monitoring center.
+\item See the project on Github: \href{https://github.com/hugochan/remote_water_quality_monitoring}{\textcolor{blue}{github.com/hugochan/remote\_water\_quality\_monitoring}}.
+\end{itemize}}
+
+%----------------------------------------------------------------------------------------
+
+\cventry{\textsc{Sep.}2012 - \textsc{Nov.}2013}{The University of Electronic Science and Technology of China}{Director in the University Students Technology Innovation Fund}{Chengdu, P.R. China}{}{A wireless pen which could record its tracks and transmitted them to a computer application through Bluetooth.
+\begin{itemize}
+\item Built a group with six members.
+\item Designed and implemented a wireless pen system based on an ARM microcontroller.
+\item Wrote a GUI program running on a computer.
+\item See the project on Github: \href{https://github.com/hugochan/wirelessShow_lowerComputer}{\textcolor{blue}{github.com/hugochan/wirelessShow\_lowerComputer}}.
+\end{itemize}}
+
+
+%----------------------------------------------------------------------------------------
+%	GRANTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Projects}
+
+\cventry{\textsc{Oct. 2014}}{The University of Michigan-Dearborn}{rUDP}{Dearborn, USA}{}{
+Reliable end-to-end in-order data delivery service inside the application layer on top of the UDP which was encapsulated as TCP-like stuff. See the project on Github: \href{https://github.com/hugochan/rUDP}{\textcolor{blue}{github.com/hugochan/rUDP}}.
+}
+
+%----------------------------------------------------------------------------------------
+
+\cventry{\textsc{Oct. 2013} - \textsc{Dec. 2013}}{The University of Electronic Science and Technology of China}{Data Analysis of SNS}{Chengdu, P.R. China}{}{An application which could log in Renren (a Chinese version of Facebook) and obtain user data to: (1) draw user relationship graphs. (2) recommend public pages. See the project on Github: \href{https://github.com/hugochan/RenrenDataRepo}{\textcolor{blue}{github.com/hugochan/RenrenDataRepo}}.
+}
+
+%----------------------------------------------------------------------------------------
+
+\cventry{\textsc{Apr. 2013} - \textsc{Jun. 2013}}{The University of Electronic Science and Technology of China}{CourseNow}{Chengdu, P.R. China}{}{An automatic course-registration application aimed at UESTC which could (1) save users' preference lists of courses. (2) log in (with cookie) and register multiple courses automatically and concurrently. See the project on Github:  \href{https://github.com/hugochan/CourseNow}{\textcolor{blue}{github.com/hugochan/CourseNow}}.
+}
+
+
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Computer Skills}
+
+\cvitem{Programming}{\textsc{Python} = \textsc{C/C++} > \textsc{Matlab} > \textsc{HTML} = \textsc{PHP} = \textsc{JavaScript} > \LaTeX}
+\cvitem{Software}{Sublime Text, Visual Studio, Matlab, MySQL, Redis, Weka, Origin, Git, PhpStorm}
+
+
+%----------------------------------------------------------------------------------------
+%	VOLUNTEER EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Volunteer Experience}
+
+\cventry{\textsc{Aug.2012}}{China Association for Science and Technology \& Asustek Computer Inc.}{Group Leader in the Asus College Science Volunteer Action}{Ningbo, P.R. China}{}{
+\begin{itemize}
+\item Popularized IT knowledge in a rural area.
+\item Taught children ages 7-13 basic computer skills.
+\end{itemize}}
+
+
+%----------------------------------------------------------------------------------------
+%	STANDARDIZE TESTS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Standardized Test Scores}
+%\cvitem{TOEFL}{28(Reading) + 25(Listening) + 17(Speaking) + 26(Writing) = 96}
+%\cvitem{GRE}{154(Verbal) + 167(Quantitative) + 3.5(A.W.)}
+
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Languages}
+
+%\cvitemwithcomment{Chinese}{Mothertongue}{}
+%\cvitemwithcomment{English}{Intermediate}{Conversationally fluent}
+
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+%\clearpage
+
+%\recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+%\makelettertitle % Print letter title
+
+%\lipsum[1-3] % Dummy text
+
+%\makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
