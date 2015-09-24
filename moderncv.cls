@@ -168,8 +168,8 @@
 \rule{\textwidth}{0.1mm}
 \begin{description}
   \item[Name:] Yu Chen
-  \item[DOB:] April 28, 1993
-  \item[Email:] yuchn@umich.edu
+  \item[Email:] cheny39@rpi.edu
+  \item[Email:] (518)423-5526
 \end{description}
 }
 
