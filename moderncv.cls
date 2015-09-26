@@ -169,7 +169,7 @@
 \begin{description}
   \item[Name:] Yu Chen
   \item[Email:] cheny39@rpi.edu
-  \item[Email:] (518)423-5526
+  \item[Phone:] (518)423-5526
 \end{description}
 }
 
