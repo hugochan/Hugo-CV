@@ -23,7 +23,7 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[11pt,letterpaper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
 \usepackage{xcolor}
 \moderncvstyle{banking} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
 \moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
@@ -73,11 +73,12 @@
 
 \section{Education}
 
-\cventry{\textsc{Aug. 2015} - \textsc{May. 2020 (expected)}}{Ph.D in Computer Science}{Rensselaer Polytechnic Institute}{Troy, NY}{}{}  % Arguments not required can be left empty
+\cventry{\textsc{Aug. 2015} - \textsc{May. 2020 (expected)}}{Ph.D in Computer Science}{Rensselaer Polytechnic Institute}{Troy, NY}{}{\textit{GPA: 3.89/4.0}}  % Arguments not required can be left empty
 
 \cventry{\textsc{Sep. 2014} - \textsc{Dec. 2014}}{Exchange student in Computer \& Information Science}{The University of Michigan-Dearborn}{Dearborn, MI}{}{}  % Arguments not required can be left empty
 %------------------------------------------------
-\cventry{\textsc{Sep. 2011} - \textsc{Jul. 2015}}{B.Eng. in Communication Engineering}{The University of Electronic Science and Technology of China}{Chengdu, China}{}{}
+\cventry{\textsc{Sep. 2011} - \textsc{Jul. 2015}}{B.Eng. in Telecommunications Engineering}{The University of Electronic Science and Technology of China}{Chengdu, China}{}{\textit{GPA: 3.98/4.0}}
+%{\textit{GPA: 3.98/4.0, Rank: 5/463}}
 
 %\section{Masters Thesis}
 
@@ -86,21 +87,6 @@
 %\cvitem{Description}{This thesis explored the idea that money has been the cause of untold anguish and suffering in the world. I %found that it has, in fact, not.}
 
 
-
-%----------------------------------------------------------------------------------------
-%	AWARDS SECTION
-%----------------------------------------------------------------------------------------
-
-\section{Honors \& Awards}
-
-
-\cventry{\textsc{Apr. 2016}}{Rensselaer Polytechnic Institute}{Second Place at the 2016 DataThon}{}{}{}  % Arguments not required can be left empty
-%------------------------------------------------
-\cventry{\textsc{2012 - 2013 \& 2013 - 2014}}{The University of Electronic Science and Technology of China}{The First-Class People's Scholarship}{}{}{}  % Arguments not required can be left empty
-%------------------------------------------------
-%\cventry{\textsc{Oct. 2012}}{China Association for Science and Technology \& ASUSTeK Computer Inc.}{Third Prize Outstanding Volunteer in Popular Science}{}{}{}  % Arguments not required can be left empty
-%------------------------------------------------
-\cventry{\textsc{2011 - 2012}}{Ministry of Education of China}{National Scholarship}{}{Top 1.6 \%}{}
 
 
 
@@ -121,7 +107,14 @@
 %\end{itemize}}
 
 
+
+
+
 \cventry{\textsc{May. 2017} - \textsc{Present}}{Advisor: Prof. \href{http://www.cs.rpi.edu/~zaki/}{\textcolor{blue}{Mohammed J. Zaki}}}{\textsc{Graduate Research Assistant, RPI}}{Troy, NY}{}{
+}
+
+\cventry{\textsc{May. 2018} - \textsc{Aug. 2018}}{Manager: Dr. \href{https://www.linkedin.com/in/lazaros-polymenakos-54983b6}{\textcolor{blue}{Lazaros Polymenakos}}}{\textsc{AI Research Intern, IBM Research}}{Yorktown Heights, NY}{}{
+Designed and implemented a knowledge-based and task-oriented conversational recommendation system.
 }
 
 
@@ -132,7 +125,7 @@
 %\end{itemize}
 }
 
-\cventry{\textsc{Mar. 2015} - \textsc{May. 2015}}{}{\textsc{Python Web Developer at Microoh}}{Chengdu, China}{}{
+\cventry{\textsc{Mar. 2015} - \textsc{May. 2015}}{}{\textsc{Python Web Developer Intern at Microoh}}{Chengdu, China}{}{
 Implemented a personalized learning management system for online education.
 %\begin{itemize}
 %\item  Responsible for the background computing of LPS 2.0 which was a personalized learning management system.
@@ -140,7 +133,8 @@ Implemented a personalized learning management system for online education.
 }
 
 
-\cventry{\textsc{Sep. 2014} - \textsc{Dec. 2014}}{Advisor: Prof. \href{http://umdearborn.edu/cecs/CIS/faculty/extended.php?p_id=50}{\textcolor{blue}{Jie Shen}}}{\textsc{Research Assistant in the Virtual Engineering Laboratory, UM-Dearborn}}{Dearborn, MI}{}{
+\cventry{\textsc{Sep. 2014} - \textsc{Dec. 2014}}{Advisor: Prof. \href{http://umdearborn.edu/cecs/CIS/faculty/extended.php?p_id=50}{\textcolor{blue}{Jie Shen}}}{\textsc{Research Assistant in the Virtual Engineering Lab, UM-Dearborn}}{Dearborn, MI}{}{
+Designed and implemented a fast voxel-based surface propagation method for outlier removal in laser measurement.
 %Data mining of large-scale discrete data sets with a focus on 3D surface denoising.
 %Proposed a fast voxel-based surface propagation method for outlier removal. See the \href{http://www.cadconferences.com/CAD16_284-289.html\#.WRzF7zOZOV6}{\textcolor{blue}{paper}} and \href{https://github.com/hugochan/denoiser}{\textcolor{blue}{code}}.
 %\newline{}
@@ -154,7 +148,8 @@ Implemented a personalized learning management system for online education.
 
 \cventry{\textsc{May. 2014} - \textsc{Jul. 2014}}{Advisor: Prof. \href{http://scholar.google.com/citations?user=MXgWgmEAAAAJ}{\textcolor{blue}{Tao Zhou}}}{Research Assistant in the Web Sciences Center, UESTC}{Chengdu, China}{}{
 %Empirical analysis and recommendation algorithms design in social network area.
-Found interesting patterns of human behaviors with temporal dynamics in social networks. More information \href{http://www.cs.rpi.edu/~cheny39/file/empirical\%20analysis\%20of\%20online\%20social\%20networks.pdf}{\textcolor{blue}{here}}.
+Discovered interesting human behavior patterns with temporal dynamics in social networks. 
+%More information \href{http://www.cs.rpi.edu/~cheny39/file/empirical\%20analysis\%20of\%20online\%20social\%20networks.pdf}{\textcolor{blue}{here}}.
 %\newline{}
 %\begin{itemize}
 %\item Analyzed a mass of data provided by multiple social network websites.
@@ -209,52 +204,70 @@ Found interesting patterns of human behaviors with temporal dynamics in social n
 
 \section{Projects}
 
-%\cventry{\textsc{Nov. 2016} - \textsc{Feb. 2017}}{Rensselaer Polytechnic Institute}{K-competitive autoencoder for text analytics}{Troy, NY}{Advisor: Prof. \href{http://www.cs.rpi.edu/~zaki/}{\textcolor{blue}{Mohammed J. Zaki}}}{
-%Designed the k-competitive autoencoder, where we introduced the ideas of competitive learning into the regular autoencoder. This model overall achieved the state of the art performance across various corpora in several downstream tasks like document classification, regression and retrieval.
-%It was implemented in Keras and Tensorflow.
-%%See the project on Github: \href{https://github.com/congruili/NLP-Cluster-Labeling-project}{\textcolor{blue}
-%%{github.com/congruili/NLP-Cluster-Labeling-project}}.
-%}
+\cventry{\textsc{May. 2017} - \textsc{Present}}{Rensselaer Polytechnic Institute}{Personalized Search and Recommendation for Health Empowerment}{Troy, NY}{Advisor: Prof. \href{http://www.cs.rpi.edu/~zaki/}{\textcolor{blue}{Mohammed J. Zaki}}}{
+Designed and developed a novel deep learning-based Q\&A  system for personalized food search and recommendation. 
+Check out our \href{https://foodkg.github.io}{\textcolor{blue}{website}}.
+}
+
+\cventry{\textsc{Jun. 2019} - \textsc{Sep. 2019}}{Rensselaer Polytechnic Institute}{Graph Learning for Graph Neural Networks}{Troy, NY}{Mentor: Dr. \href{https://sites.google.com/a/email.wm.edu/teddy-lfwu/home?authuser=0}{\textcolor{blue}{Lingfei Wu}}}{
+Designed and developed a novel iterative deep graph learning method for graph neural networks.
+}
+
+\cventry{\textsc{Mar. 2019} - \textsc{May. 2019}}{Rensselaer Polytechnic Institute}{Natural Question Generation}{Troy, NY}{Mentor: Dr. \href{https://sites.google.com/a/email.wm.edu/teddy-lfwu/home?authuser=0}{\textcolor{blue}{Lingfei Wu}}}{
+%Designed and developed a novel system for natural question generation via reinforcement learning based graph-to-sequence model.
+Designed and developed a reinforcement learning based graph-to-sequence model for natural question generation.
+}
+
+\cventry{\textsc{Dec. 2018} - \textsc{Feb. 2019}}{Rensselaer Polytechnic Institute}{Conversational Machine Reading Comprehension}{Troy, NY}{Mentor: Dr. \href{https://sites.google.com/a/email.wm.edu/teddy-lfwu/home?authuser=0}{\textcolor{blue}{Lingfei Wu}}}{
+Designed and developed a  system for conversational machine reading comprehension via graph neural networks.
+}
+
+\cventry{\textsc{Feb. 2017} - \textsc{Jul. 2017}}{Rensselaer Polytechnic Institute}{Comparative Text Analytics via Topic Modelling in Banking}{Troy, NY}{Advisor: Prof. \href{http://www.cs.rpi.edu/~zaki/}{\textcolor{blue}{Mohammed J. Zaki}}}{
+Applied topic modelling approaches to predict bank failures using a large set of SEC filings.
+}
 
 
-\cventry{\textsc{Oct. 2016} - \textsc{Dec. 2016}}{Rensselaer Polytechnic Institute}{Unsupervised cluster labeling}{Troy, NY}{Advisor: Prof. \href{http://nlp.cs.rpi.edu/hengji.html}{\textcolor{blue}{Heng Ji}}}{Designed an unsupervised algorithm which can automatically pick descriptive, human-readable labels for the clusters of entities by learning to predict hyper-hyponym relationships via word embeddings.
-%See the project on Github: \href{https://github.com/congruili/NLP-Cluster-Labeling-project}{\textcolor{blue}
-%{github.com/congruili/NLP-Cluster-Labeling-project}}.
+
+\cventry{\textsc{Aug. 2016} - \textsc{Feb. 2017}}{Rensselaer Polytechnic Institute}{Text Analytics via Topic Modelling and Text Representation}{Troy, NY}{Advisor: Prof. \href{http://www.cs.rpi.edu/~zaki/}{\textcolor{blue}{Mohammed J. Zaki}}}{
+Designed and developed a novel autoencoder-based system for text analytics via competitive learning.
+}
+
+
+
+
+
+\cventry{\textsc{Oct. 2016} - \textsc{Dec. 2016}}{Rensselaer Polytechnic Institute}{Unsupervised Cluster Labeling}{Troy, NY}{Advisor: Prof. \href{http://nlp.cs.rpi.edu/hengji.html}{\textcolor{blue}{Heng Ji}}}{Designed an unsupervised algorithm to automatically pick descriptive, human-readable labels for the clusters of entities by learning to predict hyper-hyponym relationships via word embeddings.
+Check out the Github repo: \href{https://github.com/congruili/NLP-Cluster-Labeling-project}{\textcolor{blue}{github.com/congruili/NLP-Cluster-Labeling-project}}.
 }
 
 %----------------------------------------------------------------------------------------
 
 
-\cventry{\textsc{Apr. 2016}}{Rensselaer Polytechnic Institute}{Evaluating countries and products in international trade}{Troy, NY}{}{
+\cventry{\textsc{Apr. 2016}}{Rensselaer Polytechnic Institute}{Evaluating Countries and Products in International Trade}{Troy, NY}{}{
 Designed an evolutionary bipartite graph approach to evaluate which countries do better and which products are more valuable in international trade.
-More information \href{http://www.cs.rpi.edu/~cheny39/file/2016DataThon.pdf}{\textcolor{blue}{here}}.
+More information is provided \href{http://www.cs.rpi.edu/~cheny39/file/2016DataThon.pdf}{\textcolor{blue}{here}}.
 }
 
 %----------------------------------------------------------------------------------------
 
 
-\cventry{\textsc{Mar. 2016} - \textsc{May. 2016}}{Rensselaer Polytechnic Institute}{Predicting whose papers are accepted the most}{Troy, NY}{Advisor: Prof. \href{http://www.cs.rpi.edu/~zaki/}{\textcolor{blue}{Mohammed J. Zaki}}}{
-Designed multi-layered graph mining techniques to rank research institutes based on their predicted number of accepted papers in the incoming top conferences.
-%See the project on Github: \href{https://github.com/hugochan/KDDCUP2016}{\textcolor{blue}
-%{github.com/hugochan/KDDCUP2016}}.
+\cventry{\textsc{Mar. 2016} - \textsc{May. 2016}}{Rensselaer Polytechnic Institute}{Predicting whose Papers are Accepted the Most}{Troy, NY}{Advisor: Prof. \href{http://www.cs.rpi.edu/~zaki/}{\textcolor{blue}{Mohammed J. Zaki}}}{
+Designed multi-layered graph mining techniques to rank research institutes by predicting the number of accepted papers in incoming top conferences.
+Check out the Github repo: \href{https://github.com/hugochan/KDDCUP2016}{\textcolor{blue}{github.com/hugochan/KDDCUP2016}}.
 }
 
 %----------------------------------------------------------------------------------------
 
 
-\cventry{\textsc{Mar. 2015} - \textsc{May. 2015}}{The University of Electronic Science and Technology of China}{Finding email correspondents in online social networks.}{Chengdu, China}{}{
-Designed an effective algorithm which can help find email correspondents in online social networks by leveraging user profiles and network structures.
-More information \href{http://www.cs.rpi.edu/~cheny39/file/technical\%20details.pdf}{\textcolor{blue}{here}}.
+\cventry{\textsc{Mar. 2015} - \textsc{May. 2015}}{The University of Electronic Science and Technology of China}{Finding Email Correspondents in Online Social Networks.}{Chengdu, China}{}{
+Designed an effective algorithm to help find email correspondents in online social networks by leveraging user profiles and network structures.
+More information is provided \href{http://www.cs.rpi.edu/~cheny39/file/technical\%20details.pdf}{\textcolor{blue}{here}}.
 }
 
 %----------------------------------------------------------------------------------------
 
 
-%\cventry{\textsc{Jun. 2015}}{The University of Electronic Science and Technology of China}{PeopleFinder}{Chengdu, China}{}{A software designed to find email correspondents in online social networks. Import your email box and get friends recommendation in online social networks. More information \href{http://www.cs.rpi.edu/~cheny39/file/why\%20finding\%20email\%20correspondents\%20in\%20online\%20social\%20networks\%20is\%20important.pdf}{\textcolor{blue}{here}} and \href{https://github.com/hugochan/peoplefinder}{\textcolor{blue}
-%{here}}.
-%%See the project on Github: \href{https://github.com/hugochan/peoplefinder}{\textcolor{blue}
-%%{github.com/hugochan/peoplefinder}}.
-%}
+
 
 %----------------------------------------------------------------------------------------
 
@@ -283,10 +296,74 @@ More information \href{http://www.cs.rpi.edu/~cheny39/file/technical\%20details.
 
 
 \section{Publications}
+
+\subsection{Preprints}
+{\footnotesize
 \begin{enumerate}
-\item Yu Chen and Mohammed J. Zaki. KATE: K-competitive Autoencoder for Text. In 23rd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. Aug 13-17, 2017.
-\item Yu Chen, Hao Chen, Jie Shen. Fast Voxel-based Surface Propagation Method for Outlier Removal. In Proceedings of the 13th International CAD Conference, Vancouver, BC, Canada. June 27-29, 2016.
+
+\item  \textbf{Yu Chen}, Lingfei Wu and Mohammed J. Zaki, Iterative Deep Graph Learning for Graph Neural Networks.
+\item  \textbf{Yu Chen}, Lingfei Wu and Mohammed J. Zaki, Reinforcement Learning Based Graph-to-Sequence Model for Natural Question Generation.
+\item  \textbf{Yu Chen}, Lingfei Wu and Mohammed J. Zaki, GraphFlow: Exploiting Conversation Flow with Graph Neural Networks for Conversational Machine Comprehension. 
+
+ \end{enumerate}
+}
+
+ 
+\subsection{Conference Publications}
+{\footnotesize 
+\begin{enumerate}
+
+\item \textbf{Yu Chen}, Lingfei Wu and Mohammed J. Zaki. Natural Question Generation with Reinforcement Learning Based Graph-to-Sequence Model. \textbf{In NeurIPS 2019 workshop on Graph Representation Learning} (NeurIPS GRL 2019), Vancouver, BC, Canada, Dec 8-Dec 14, 2019. 
+\item Steven Haussmann, \textbf{Yu Chen}, Oshani Seneviratne, Nidhi Rastogi, James Codella, Ching-Hua Chen, Deborah McGuinness, Mohammed J. Zaki. FoodKG Enabled Q\&A Application. \textbf{In Proceedings of the 18th International Semantic Web Conference} (ISWC 2019), Auckland, New Zealand, Oct. 26-Oct. 30, 2019.
+\item Steven Haussmann, Oshani Seneviratne, \textbf{Yu Chen}, Yarden Ne’eman, James Codella, Ching-Hua Chen, Deborah L. McGuinness and Mohammed J. Zaki. FoodKG: A Semantics-Driven Knowledge Graph for Food Recommendation. \textbf{In Proceedings of the 18th International Semantic Web Conference} (ISWC 2019), Auckland, New Zealand, Oct. 26-Oct. 30, 2019. 
+\item \textbf{Yu Chen}, Lingfei Wu and Mohammed J. Zaki. GraphFlow: Exploiting Conversation Flow with Graph Neural Networks for Conversational Machine Comprehension. \textbf{In ICML 2019 Workshop on Learning and Reasoning with Graph-Structured Representations} (ICML LRG 2019), Long Beach, CA, June 9-June 15, 2019. 
+\item \textbf{Yu Chen}, Lingfei Wu and Mohammed J. Zaki. Bidirectional Attentive Memory Networks for Question Answering over Knowledge Bases. \textbf{In Proceedings of the 2019 Annual Conference of the North American Chapter of the Association for Computational Linguistics} (NAACL-HLT 2019), minneapolis, MN, June 2-June 7, 2019. Long Oral Paper.
+\item \textbf{Yu Chen}, Rhaad M. Rabbani, Aparna Gupta and Mohammed J. Zaki. Comparative Text Analytics via Topic Modeling in Banking. \textbf{In Proceedings of the 2017 IEEE Symposium Series on Computational Intelligence} (IEEE SSCI 2017), Hawaii, USA, Nov 27-Dec 1, 2017.
+\item \textbf{Yu Chen} and Mohammed J. Zaki. KATE: K-competitive Autoencoder for Text. \textbf{In Proceedings of the 23rd International Conference on Knowledge Discovery and Data Mining} (ACM SIGKDD 2017), Halifax, NS, Canada, August 13-17, 2017. Full Oral Paper. Acceptance rate=8.6\% (64 out of 748). 
+\item \textbf{Yu Chen}, Hao Chen and Jie Shen. Fast Voxel-based Surface Propagation Method for Outlier Removal. \textbf{In Proceedings of the 13th International CAD Conference}, Vancouver, BC, Canada, June 27-29, 2016.
 \end{enumerate}
+}
+
+
+\subsection{Journal Publications}
+
+{\footnotesize
+\begin{enumerate}
+\item Hao Chen, \textbf{Yu Chen}, Xu Zhang, Baiyuan Li, Xiaoqiang Liu, Xuefei Shi and Jie Shen. A Fast Voxel-based Method for Outlier Removal in Laser Measurement. \textbf{In International Journal of Precision Engineering and Manufacturing}, 2019. 
+\end{enumerate}
+}
+
+\section{Patents}
+{\footnotesize
+\begin{enumerate}
+
+
+
+\item Lingfei Wu, \textbf{Yu Chen}, Mohammed J. Zaki. Method and System for Natural Question Generation via Reinforcement Learning Based Graph-to-Sequence Model. To be filed, 2019.
+\item Lingfei Wu, \textbf{Yu Chen}, Mohammed J. Zaki. Conversation History Within Conversational Machine Reading Comprehension. Aug, 2019.
+
+\end{enumerate}
+}
+
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Honors \& Awards}
+
+\cventry{\textsc{Jul. 2017}}{ACM SIGKDD}{Student Travel Award of SIGKDD 2017}{}{}{}  % Arguments not required can be left empty
+
+\cventry{\textsc{Apr. 2016}}{Rensselaer Polytechnic Institute}{Second Place at the 2016 DataThon}{}{}{}  % Arguments not required can be left empty
+%------------------------------------------------
+\cventry{\textsc{2012 - 2013 \& 2013 - 2014}}{The University of Electronic Science and Technology of China}{The First-Class People's Scholarship}{}{}{}  % Arguments not required can be left empty
+%------------------------------------------------
+%\cventry{\textsc{Oct. 2012}}{China Association for Science and Technology \& ASUSTeK Computer Inc.}{Third Prize Outstanding Volunteer in Popular Science}{}{}{}  % Arguments not required can be left empty
+%------------------------------------------------
+\cventry{\textsc{2011 - 2012}}{Ministry of Education of China}{National Scholarship}{}{Top 1.6 \%}{}
+
+
+
 
 %----------------------------------------------------------------------------------------
 %	COMPUTER SKILLS SECTION
@@ -294,9 +371,9 @@ More information \href{http://www.cs.rpi.edu/~cheny39/file/technical\%20details.
 
 \section{Skills}
 
-\cvitem{Research}{Data Mining, Machine Learning, Natural Language Processing}
-\cvitem{Programming}{\textsc{Python} = \textsc{C/C++} > \textsc{Matlab} > \textsc{Java} = \textsc{R} = \textsc{Scheme} = \textsc{JavaScript} = \textsc{PHP}}
-\cvitem{Software}{Linux, Database, AWS, Keras, Tensorflow}
+\cvitem{Research}{Machine Learning, Deep Learning, Natural Language Processing, Data Mining}
+\cvitem{Programming}{\textsc{Python} = \textsc{C/C++} > \textsc{Matlab} >  \textsc{R} = \textsc{Scheme} = \textsc{JavaScript} = \textsc{PHP}}
+\cvitem{Software}{PyTorch, TensorFlow, Keras, Linux, MacOS, Database, Git}
 %\cvitem{Others}{Data Mining, Machine Learning, Signal Processing, Web Development, Embedded Systems}
 
 %----------------------------------------------------------------------------------------
